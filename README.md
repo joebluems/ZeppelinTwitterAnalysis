@@ -2,6 +2,7 @@
 parse streaming tweets into a TSV, then analyze with zeppelin
 
 ## A. Preparing the tweets
+Acquiring the tweets and parsing the results was done in Python but there are many other choices. An important note to consider when running any of these scripts is that you will need to point your script to your python executable. Any of these scripts will need to be modified. <BR>
 If you are interested in starting from scratch and acquiring the data, follow these steps:
 * Get a twitter developer key here: https://dev.twitter.com
 * Grab the secret key info and modify the file <b>stream.py</b>
